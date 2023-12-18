@@ -1,0 +1,21 @@
+table{width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+}
+td,
+th,
+tr{
+    /* border: 3px solid black; */
+    padding: 10px;
+    text-align: center; 
+}
+th{
+    background-color: rgba(5, 1, 35, 0.767);
+    color: white;
+    padding: 15px;
+}
+tr {
+    border-bottom: 1px solid white;
+  }
+  tr:nth-child(odd) {
+    background-color: #efb0ae;}
